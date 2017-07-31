@@ -25,7 +25,7 @@
 #PROMPT="
 #%{$fg[magenta]%}[%d]%{$reset_color%}
 #%{$fg[magenta]%} -> %{$reset_color%}"
-local ret_status="%(?:%{$fg[blue]%}^_^ > :%{$fg_bold[red]%}T_T ➜ )"
+local ret_status="%(?:%{$fg[blue]%}^_^ -> :%{$fg_bold[red]%}T_T -> )"
 PROMPT="
 %{$fg[magenta]%}[%d]%{$reset_color%}
 ${ret_status}"
